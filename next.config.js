@@ -22,10 +22,10 @@ module.exports = withPlugins(plugins, {
    * documentation: https://nextjs.org/docs/api-reference/next.config.js/environment-variables
    */
   env: {
-    ENVIRONMENT_NAME: process.env.ENVIRONMENT_NAME,
-    CONTENTFUL_SPACE_ID: process.env.CONTENTFUL_SPACE_ID,
-    CONTENTFUL_ACCESS_TOKEN: process.env.CONTENTFUL_ACCESS_TOKEN,
-    CONTENTFUL_PREVIEW_ACCESS_TOKEN: process.env.CONTENTFUL_PREVIEW_ACCESS_TOKEN,
+    ENVIRONMENT_NAME: process.env.CONTENTFUL_SPACE_ID,
+    CONTENTFUL_SPACE_ID: process.env.CONTENTFUL_ACCESS_TOKEN,
+    CONTENTFUL_ACCESS_TOKEN: process.env.CONTENTFUL_PREVIEW_ACCESS_TOKEN,
+    CONTENTFUL_PREVIEW_ACCESS_TOKEN: process.env.CONTENTFUL_MANAGEMENT_TOKEN,
   },
 
   /**
